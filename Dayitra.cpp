@@ -9,7 +9,7 @@ using namespace std;
 int main()
 {
 	int force= 0
-	while (true)
+	while (force<10)
 	{
 		force++;
 	}
