@@ -9,16 +9,8 @@ using namespace std;
 int main()
 {
 	int force= 0
-	while (true)
+	while (force<5)
 	{
 		force++;
 	}
-
-	int const NEXT = 5;
-
-	for (int i = 0; i < NEXT; i++)
-	{
-		mouse *= NEXT;
-	}
-	printf(mouse);
 }
