@@ -18,4 +18,10 @@ int main()
 
 	int mouse = force - NEXT;
 	printf(mouse);
+
+	for (int i = 0; i < NEXT; i++)
+	{
+		mouse *= NEXT;
+	}
+	printf(mouse);
 }
